@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King of Herbs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/logo2.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo2.png" alt="KingOfHerbs"></a>
+            </div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#welcome-section" id="home">الصفحة الرئيسية</a></li>
+                    <li><a href="#products-section" id="products">المنتجات</a></li>
+                    <li><a href="#contact-section" id="contact-us">اتصل بنا</a></li>
+                    <li><a href="#certificates-section" id="certificate-text">شهاداتنا</a></li>
+               
+                </ul>
+            </nav>
+            <div class="social-icons">
+                <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <div id="xxx">
+
+            </div>
+            <select id="languageSelect" onchange="changeLanguage(this.value) ">
+                <option value="ar">عربي</option>
+                <option value="en" selected>English</option>
+                <option value="de">Deutsch</option>
+                <option value="ru">Русский</option>
+                <option value="tr">Türkçe</option>
+            </select>
+        </div>
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="#welcome-section" id="home">الصفحة الرئيسية</a></li>
+                <li><a href="#products-section" id="products">المنتجات</a></li>
+                <li><a href="#contact-section" id="contact-us">اتصل بنا</a></li>
+                <li><a href="#certificates-section" id="certificate-text">شهاداتنا</a></li>
+           
+                 </ul>
+        </div>
+    </header>
+
+    <section class="hero-section">
+  <div class="hero-container">
+    <div class="hero-text">
+      <h1>
+        <span class="dark-green">The</span>
+        <span class="orange">King of</span><br>
+        <span class="orange">Herbs</span><br>
+        <span class="dark-green">Naturally Pure</span>
+      </h1>
+      <p>
+        Discover our premium collection of organic herbs, spices, and natural remedies.
+        Sourced from the finest gardens worldwide and processed with traditional methods
+        to preserve maximum potency and flavor.
+      </p>
+      <div class="hero-buttons">
+        <a href="#products-section" class="btn green-btn">Shop Now</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="img/logo44.png" alt="Field of Herbs">
+    </div>
+  </div>
+</section>
+
+<section id="products-section">
+    <h2 id="our-products">منتجاتنا</h2>
+    <div class="product-grid">
+        <div class="product">
+            <img src="img/Products/local_mint.jpeg" alt="منتج 1">
+            <p id="local-mint">عشبة النعناع البلدي مفيدة للهضم وتخفيف الغثيان.</p>
+        </div>
+        <div class="product">
+            <img src="img/Products/peppermint.jpeg" alt="منتج 2">
+            <p id="peppermint">عشبة النعناع الفلفلي تساعد في تعزيز الطاقة وتحسين التنفس.</p>
+        </div>
+        <div class="product">
+            <img src="img/Products/basil.jpeg" alt="منتج 3">
+            <p id="basil">عشبة الريحان تساهم في تحسين الهضم وتخفيف الالتهابات.</p>
+        </div>
+        <div class="product">
+            <img src="img/Products/marjoram.jpeg" alt="منتج 4">
+            <p id="marjoram">عشبة البردقوش مفيدة لصحة الجهاز الهضمي وتعزيز النوم.</p>
+        </div>
+        <div class="product">
+            <img src="img/Products/fennel.jpeg" alt="منتج 5">
+            <p id="fennel">عشبة الشمر تساعد في تحسين عملية الهضم وتخفيف الانتفاخ.</p>
+        </div>
+        <div class="product">
+            <img src="img/Products/thyme.jpeg" alt="منتج 6">
+            <p id="thyme">عشبة الزعتر مفيدة في مكافحة الالتهابات وتعزيز المناعة.</p>
+        </div>
+        <div class="product">
+            <img src="img/Products/dried_dill.jpeg" alt="منتج 7">
+            <p id="dried-dill">عشبة الشبت المجفف تساهم في تحسين الهضم وتخفيف الغثيان.</p>
+        </div>
+        <div class="product">
+            <img src="img/Products/molokhia.jpeg" alt="منتج 8">
+            <p id="molokhia">عشبة الملوخية مفيدة في تعزيز صحة الجهاز الهضمي والمناعة.</p>
+        </div>
+        <div class="product">
+            <img src="img/Products/anise.jpeg" alt="منتج 9">
+            <p id="anise">عشبة اليانسون تساعد في تحسين الهضم وتخفيف السعال.</p>
+        </div>
+        <div class="product">
+            <img src="img/Products/dried_coriander.jpeg" alt="منتج 10">
+            <p id="dried-coriander">عشبة الكزبرة المجففة تساعد في تحسين الهضم وتنظيم مستويات السكر في الدم.</p>
+        </div>
+        <div class="product">
+            <img src="img/Products/sun_dried_coriander.jpeg" alt="منتج 11">
+            <p id="sun-dried-coriander">عشبة الكزبرة الشمسية تساهم في تعزيز صحة الجهاز الهضمي وتقوية المناعة.</p>
+        </div>
+        <div class="product">
+            <img src="img/Products/cumin.jpeg" alt="منتج 12">
+            <p id="cumin">عشبة الكمون تساعد في تحسين الهضم وتخفيف الانتفاخ.</p>
+        </div>
+        <div class="product">
+            <img src="img/Products/senna.jpeg" alt="منتج 13">
+            <p id="senna">عشبة السنامكي تساعد في علاج الإمساك وتحسين حركة الأمعاء.</p>
+        </div>
+        <div class="product">
+            <img src="img/Products/hibiscus.jpeg" alt="منتج 14">
+            <p id="hibiscus">عشبة الكركديه مفيدة في خفض ضغط الدم وتعزيز صحة القلب.</p>
+        </div>
+        <div class="product">
+            <img src="img/Products/elderberry.jpeg" alt="منتج 16">
+            <p id="elderberry">عشبة البلسان مفيدة في تعزيز المناعة وتخفيف أعراض البرد.</p>
+        </div>
+        <div class="product">
+            <img src="img/Products/black_seed.jpeg" alt="منتج 17">
+            <p id="black-seed">عشبة الحبة السوداء تساهم في تعزيز الصحة العامة وتقوية المناعة.</p>
+        </div>
+        <div class="product">
+            <img src="img/Products/celery.jpeg" alt="منتج 19">
+            <p id="celery">عشبة الكرفس تساعد في تحسين عملية الهضم وتقليل ضغط الدم.</p>
+        </div>
+        <div class="product">
+            <img src="img/Products/chamomile.jpeg" alt="منتج 20">
+            <p id="chamomile">عشبة البابونج مفيدة في تهدئة الأعصاب وتحسين جودة النوم.</p>
+        </div>
+        <div class="product">
+            <img src="img/Products/turmeric.jpeg" alt="منتج 21">
+            <p id="turmeric">عشبة الكركم تساهم في مكافحة الالتهابات وتعزيز صحة المفاصل.</p>
+        </div>
+    </div>
+</section>
+
+<section id="certificates-section">
+    <div class="certificates-container">
+        <div class="certificate">
+            <img src="img/certificates/organic.jpeg" alt="Certificate 1">
+        </div>
+        <div class="certificate">
+            <img src="img/certificates/Haccp.png" alt="Certificate 2">
+        </div>
+        <div class="certificate">
+            <img src="img/certificates/organic_eu.jpeg" alt="Certificate 3">
+        </div>
+        <div class="certificate">
+            <img src="img/certificates/iso.png" alt="Certificate 4">
+        </div>
+        
+    </div>
+</section>
+<footer>
+  <div class="footer-container">
+    <div class="footer-contact">
+      <h3>Contact Us</h3>
+      <p>Email: <a href="mailto:example@email.com">example@email.com</a></p>
+      <p>WhatsApp: <a href="https://wa.me/201234567890" target="_blank">+20 123 456 7890</a></p>
+    </div>
+
+    <div class="footer-map">
+      <h3>Our Location</h3>
+      <iframe
+       src="https://www.google.com/maps/@28.961027,30.903957,16z?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"
+        width="100%"
+        height="150"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 King of Herbs. All rights reserved.</p>
+  </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
